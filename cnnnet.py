@@ -1,6 +1,6 @@
-import torch
 import torch.nn as nn
 import torch.nn.functional as F
+import torch
 from torchsummary import summary
 class CNNNet(nn.Module):
     def __init__(self):
